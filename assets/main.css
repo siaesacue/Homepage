@@ -38,7 +38,7 @@ body{
 }
 
 .background{
-    background-image: url(./img/background.jpg);
+    background-image: url(https://i.loli.net/2019/12/27/iEwxVHdvuG2DcLS.jpg);
     background-position: center;
     background-size: cover;
     min-height: 100%;
@@ -63,7 +63,7 @@ body{
 
 .container .content {
 	padding: 2em 1em;
-	background-image: url(./img/background.jpg);
+	background-image: url(https://i.loli.net/2019/12/27/iEwxVHdvuG2DcLS.jpg);
 	background-position: center;
 	background-size: cover;
 	v
@@ -133,16 +133,16 @@ body{
 }
 
 .blog{
-    background-image: url(./img/blog.png);
+    background-image: url(https://i.loli.net/2019/12/27/inqpgbkm1J4VReZ.png);
 }
 .github{
-    background-image: url(./img/github.png);
+    background-image: url(https://i.loli.net/2019/12/27/CzXG7LEK9lRj1Ft.png);
 }
 .twitter{
-    background-image: url(./img/twitter.png);
+    background-image: url(https://i.loli.net/2019/12/27/zAopjBXRdW6Tafw.png);
 }
 .telegram{
-    background-image: url(./img/telegram.png);
+    background-image: url(https://i.loli.net/2019/12/27/B4PVnmTtYxO9NL2.png);
 }
 
 .footer {
