@@ -1,9 +1,8 @@
 /*
 Author: Siae
-Assist：Paul
 Author URI: https://siae.me
 Description: Homepage
-Version: 0.2
+Version: 1.0
 */
 
 *{
@@ -11,18 +10,12 @@ Version: 0.2
     padding: 0;
 }
 
-::selection {
-	background: rgba(255, 255, 255, 0.3);
+html,body{
+    height:100%;
 }
-
-::-moz-selection {
-	background: rgba(255, 255, 255, 0.3);
-}
-
-html,body{height:100%;}
 
 html{
-	position: relative;
+    position: relative;
 }
 
 body{
@@ -38,87 +31,74 @@ body{
 }
 
 .background{
-    background-image: url(https://i.loli.net/2019/12/27/iEwxVHdvuG2DcLS.jpg);
+    background-image: url(./img/background.jpg);
     background-position: center;
     background-size: cover;
-    min-height: 100%;
-    min-width: 100%;
-    display: block;
+    height: 100%;
+    width: 100%;
     position: fixed;
-    z-index: 0;
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
+    z-index: auto;
     transform: scale(1.1);
-    -webkit-filter: blur(18px);
-    -moz-filter: blur(18px);
-    -ms-filter: blur(18px);
-    filter: blur(18px);
-    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false);
+    filter: blur(20px);
 }
-.container {
-	background: #fff;
-	-webkit-border-radius: 4px;
-	border-radius: 20px;
-	margin:15px
+
+.container{
+    display: block;
+    background: #fff;
+    border-radius: 23px;
+    margin: 15px;
 }
 
 .container .content {
 	padding: 2em 1em;
-	background-image: url(https://i.loli.net/2019/12/27/iEwxVHdvuG2DcLS.jpg);
+	background-image: url(./img/background.jpg);
 	background-position: center;
 	background-size: cover;
-	v
-	-webkit-border-radius: 4px 4px 0 0;
 	border-radius: 20px 20px 0 0;
 	text-align: center;
-	-webkit-box-shadow: inset 0 -70px 100px -50px rgba(0,0,0,.5);
 	box-shadow: inset 0 -70px 100px -50px rgba(0,0,0,.5);
 }
-
-.container .content p {
-	margin-top: -2em;
-	font-size: 30px;
-	letter-spacing: .5px;
-	color: #fff;
-	text-shadow: 1px 1px 1px rgba(0,0,0,.7);
-	font-weight: 500;
+.container .content p{
+    margin-top: -2em;
+    font-size: 30px;
+    letter-spacing: .5px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+    font-weight: 500;
 }
 
 .container .info {
-	padding: 1em;
-	text-align: center;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
-	-webkit-border-radius: 0 0 4px 4px;
-	border-radius: 0 0 20px 20px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    padding: 10px;
 }
 
-.picture {
-	top: -5em;
-	position: relative;
-	width: 160px;
-	height: 160px;
-	border-radius: 100%;
-	box-shadow: 0 -12px 20px rgba(0, 0, 0, 0.2);
+.container .info p{
+    font-size: 14px;
 }
 
-.container .info p {
-	font-size: 14px;
-}
-
-.container .info h1 {
-	margin-bottom: 0.5em;
-	font-size: 20px;
+.container .info h1{
+    margin-left: 1em;
+    margin-bottom: 0.2em;
+	font-size: 25px;
 	letter-spacing: .5px;
 	text-shadow: 1px 1px 1px rgba(0,0,0,.7);
-	font-weight: 100;
+	font-weight: 300;
+}
+
+.picture{
+    top:-5em;
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    user-select: none;
 }
 
 .sns {
-	padding: 12px 0;
+    margin-bottom: -0.5em;
+    padding: 12px 0;
+    user-select: none;
 }
 
 .sns a {
@@ -130,64 +110,44 @@ body{
 }
 
 .sns a + a {
-    margin-left: 16px;
+    margin-left: 15px;
 }
 
 .blog{
-    background-image: url(https://i.loli.net/2020/06/17/JLkdYhO2jrZoF7a.png);
+    background-image: url(./img/blog.png);
 }
 .github{
-    background-image: url(https://i.loli.net/2019/12/27/CzXG7LEK9lRj1Ft.png);
+    background-image: url(./img/github.png);
 }
 .twitter{
-    background-image: url(https://i.loli.net/2019/12/27/zAopjBXRdW6Tafw.png);
+    background-image: url(./img/twitter.png);
 }
 .telegram{
-    background-image: url(https://i.loli.net/2019/12/27/B4PVnmTtYxO9NL2.png);
+    background-image: url(./img/telegram.png);
 }
 
 .footer {
-	margin-bottom: -1em;
+	margin-bottom: -0.5em;
     font-size: 10px;
     color: #b3b3b3;
     width: 100%;
 }
 
-@-webkit-keyframes shake {
-	from,to {
-		-webkit-transform: translate3d(0,0,0);
-		transform: translate3d(0,0,0)
-	}
-
-	10%,30%,50%,70%,90% {
-		-webkit-transform: translate3d(-10px,0,0);
-		transform: translate3d(-10px,0,0)
-	}
-
-	20%,40%,60%,80% {
-		-webkit-transform: translate3d(10px,0,0);
-		transform: translate3d(10px,0,0)
-	}
-}
-
 @keyframes shake {
 	from,to {
-		-webkit-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0)
 	}
 
 	10%,30%,50%,70%,90% {
-		-webkit-transform: translate3d(-10px,0,0);
 		transform: translate3d(-10px,0,0)
 	}
 
 	20%,40%,60%,80% {
-		-webkit-transform: translate3d(10px,0,0);
 		transform: translate3d(10px,0,0)
 	}
 }
 
 .shake {
-	-webkit-animation: shake .7s ease-out;
-	animation: shake .7s ease-out
+
+    animation: shake .7s ease-out
 }
