@@ -5,6 +5,9 @@ This is a homepage for Siae.
 鸣谢：Paul
 
 ## 历史更新
+- 2021-02-10<br>
+字体/图标等，更换为像素风格。<br>
+样式引用：CSS`NES.css`，FONT`ZPix`<br>
 
 - 2019-07-28<br>
 更新样式，优化手机端阅读体验<br>
