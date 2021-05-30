@@ -5,6 +5,9 @@ This is a homepage for Siae.
 鸣谢：Paul
 
 ## 历史更新
+- 2021-05-30<br>
+删除`NES.css`，增添社交图标。<br>
+
 - 2021-02-10<br>
 字体/图标等，更换为像素风格。<br>
 样式引用：CSS`NES.css`，FONT`ZPix`<br>

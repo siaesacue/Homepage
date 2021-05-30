@@ -4,7 +4,6 @@ Author URI: https://siae.me
 Description: Homepage
 Version: 1.0
 */
-@IMPORT url("nes.min.css");
 
 @font-face {
     font-family: Zpix;
@@ -17,6 +16,7 @@ Version: 1.0
 }
 
 html,body{
+    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFklEQVRYR9WXURLDIAhE6/0PbSdOtUpcd1Gnpv1KGpTHBpCE1/cXq+vrMph7dGvXZTtpfW10DCA5jrH1H0Jhs5E0hnZdCR+vb5S8Nn8mQCeS9BdSalYJqMBjAGzq59xAESN7VFVUgV8AZB/dZBR7QTFDCqGquvUBVVoEtgIwpQRzmANSFHgWQKExHdIrPeuMvQNDarXe6nC/AutgV3JW+6bgqQLeV8FekRtgV+ToDKEKnACYKsfZjjkam7a0ZpYTytwmgainpC3HvwBocgKOxqRjehoR9DFKNFYtOwCGYCszobeCbl26N6yyQ6g8X/Wex/rBPsNEV6qAMaJPMynIHQCoSqS9JSMmwef51LflTgCRszU7DvAGiV6mHWfsaVUAAAAASUVORK5CYII=),auto;
     height:100%;
 }
 
@@ -85,7 +85,7 @@ body{
 .container .info h1{
     margin-top: -0.3em;
     margin-left: 1em;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.3em;
 	font-size: 25px;
 	letter-spacing: .5px;
 	text-shadow: 1px 1px 1px rgba(0,0,0,.7);
@@ -102,16 +102,38 @@ body{
 }
 
 .sns {
-    margin-top: -0.5em;
+    padding: 12px 0;
     user-select: none;
 }
-
+.sns a{
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+}
 .sns a + a {
-    margin-left: 5px;
+    margin-left: 14px;
+}
+
+.twitter{
+    background-image: url(https://i.loli.net/2021/05/30/IXmfpoynkqhCLYi.png);
+}
+
+.blog{
+    background-image: url(https://i.loli.net/2021/05/30/yFInBsmw27SEfuV.png);
+}
+
+.telegram{
+    background-image: url(https://i.loli.net/2021/05/30/qcuft5XvQp3kFBO.png);
+}
+
+.github{
+    background-image: url(https://i.loli.net/2021/05/30/s7Uq9OkEjVhPbne.png);
 }
 
 .footer {
-	margin-bottom: -3em;
+	margin-bottom: -1em;
     font-size: 10px;
     color: #b3b3b3;
     width: 100%;
